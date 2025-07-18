@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What is Weather?</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+      img {
+        float: right;
+        width: 400px;
+        height: 200px;
+        border: 5px solid burlywood;
+      }
+      .mainclass {
+        background-color: bisque;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        margin: 20px 20px 20px 20px;
+      }
+      p {
+        padding: 10px 10px 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mainclass">
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">WeatherApp</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="weather.html">What is Weather?</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Cities
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">London</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Boston</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">New-York</a></li>
+          </ul>
+        </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li> -->
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Enter Cities" aria-label="Search" id="cityInput"/>
+        <button class="btn btn-outline-success" type="button" id="weatherBtn" href="./cities.html">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+      <div class="maincontainer">
+        <h1>What is Weather?</h1>
+        <div class="paraone">
+          <div class="imagebefore"><img src="weatherImage.jpg" /></div>
+          <div class="parabefore">
+            <p>
+              Weather refers to the short-term atmospheric conditions in a
+              specific place at a specific time. It includes elements such as
+              temperature, humidity, precipitation (rain, snow, etc.), wind
+              speed and direction, atmospheric pressure, and cloud cover. Unlike
+              climate, which is the average pattern of weather over a long
+              period, weather is temporary and can change from hour to hour or
+              day to day. People experience weather daily and it directly
+              affects activities like travel, farming, and clothing choices.
+            </p>
+
+            <p>
+              Weather is primarily driven by the sun's energy. When sunlight
+              reaches Earth, it heats the surface unevenly due to differences in
+              terrain, water bodies, and atmospheric composition. This uneven
+              heating causes air to rise and fall, creating pressure differences
+              that lead to wind and storm systems. The water cycle—evaporation,
+              condensation, and precipitation—also plays a crucial role in
+              forming clouds and delivering rain or snow. Geography, like
+              mountains and oceans, influences local weather by shaping wind
+              patterns and moisture availability.
+            </p>
+
+            <p>
+              Different types of weather patterns include sunny, cloudy, rainy,
+              snowy, foggy, windy, and stormy conditions. Weather can range from
+              calm and pleasant to extreme and hazardous. Severe weather events
+              such as thunderstorms, hurricanes, tornadoes, and blizzards can
+              cause major disruptions and pose risks to life and property.
+              That’s why meteorologists constantly monitor atmospheric data
+              using satellites, radar, and sensors to forecast weather and issue
+              warnings.
+            </p>
+
+            <p>
+              In modern times, weather forecasting has become more accurate due
+              to advances in computer modeling and technology. Apps and websites
+              now provide hourly and weekly forecasts for almost every location
+              on Earth. Understanding weather not only helps individuals plan
+              their daily lives, but it is also crucial for sectors like
+              aviation, agriculture, disaster management, and energy production.
+              As climate change impacts long-term trends, studying weather helps
+              scientists track changes in patterns and predict future
+              environmental challenges.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./scriptMain.js"></script>
+  </body>
+</html>

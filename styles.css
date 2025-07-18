@@ -1,0 +1,92 @@
+html {
+  background-color: bisque;
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  user-select: none;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+}
+.container-fluid {
+  background-color: bisque;
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.maincontainer {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: bisque;
+}
+.mainclass {
+  background-color: bisque;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.card {
+  display: block;
+  text-align: left;
+  margin: 20px auto;
+  width: 20rem;
+}
+.card-body {
+  img {
+    width: 15rem;
+    height: 200px;
+  }
+  text-align: center;
+}
+.card-title {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(244, 154, 89);
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 10px auto;
+}
+.card-text {
+  background-color: rgb(137, 207, 219);
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 10px auto;
+  text-align: center;
+}
+#moreInfoDiv {
+  text-align: center;
+}
+#viewForcast {
+  text-align: center;
+  margin: 0px 0px 0px 10px;
+}
+
+#weatherResult,
+.forecast-card {
+  margin-top: 20px;
+}
+.forecastContainer{
+  display: flex;
+  flex-direction: column;
+}
+.forecastHeading{
+  display:block;
+  width: 100%;
+}
+.forecastContainer .forecastHeading{
+  text-align: center;
+}
+.forecast {
+  text-align: center;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.forecast-card img {
+  width: 150px;
+  height: 150px;
+}
+.forecast-card {
+  background: #f0f8ff;
+  padding: 10px;
+  border-radius: 8px;
+  width: 200px;
+  gap: 10px;
+}

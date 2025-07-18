@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+      h3 {
+        margin: 10px 10px 10px 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+   <div class="maincontainer">   
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">WeatherApp</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="weather.html">What is Weather?</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Cities
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">London</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Boston</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">New-York</a></li>
+          </ul>
+        </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li> -->
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Enter Cities" aria-label="Search" id="cityInput"/>
+        <button class="btn btn-outline-success" type="button" id="weatherBtn">Search</button>
+      </form> 
+    </div>
+  </div>
+</nav>
+      <!-- <h2> WeatherResult</h2>
+      <input type="text" id="cityInput" placeholder="Enter city name"/>
+    <button id="weatherBtn" type="primary-btn">Get Weather</button>
+    <div id="weatherResult"></div> -->
+  <!-- <div class="weatherResult"></div> -->
+  <h3>Search in Cities Search Bar which City Temperature you want to know.</h3>
+  <h3>Type Cities like London, Boston, New-York, Mumbai, Chennai, New-Delhi, Kolkata.</h3>
+  <p>You will know:
+    <ul type="disc">
+      <li>Temperature: Temperature refers to the measure of warmth or coldness of an 
+        environment as determined by a thermometer. It is a fundamental 
+        element of both weather and climate, influencing various atmospheric processes and conditions.</li>
+      <li>Temperature you feel like: Temperature you observe.</li>
+      <li>Humidity: Humidity denotes the concentration of water vapor present 
+        in the atmosphere. As an integral part of Earth's atmosphere, humidity plays 
+        a pivotal role in defining the comfort level of any environment. 
+        It is responsible for driving various weather phenomena - cloud formation, 
+        precipitation, and fog.</li>
+      <li>Minimum and Maximum Temperature is the lower and upper limit of temperature variation.</li>
+      <li>Wind Degrees: is the true direction from which the wind is blowing 
+        at a given location (i.e., wind blowing from the north to the 
+        south is a north wind). It is normally measured in tens of degrees 
+        from 10 degrees clockwise through 360 degrees. North is 360 degrees.</li>
+      <li> Cloud Precipitation and Wind Speed are other parameters 
+        which are talked about. </li>
+    </ul>
+  </p>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="scriptMain.js" type="module"></script>
+</body>
+</html>
