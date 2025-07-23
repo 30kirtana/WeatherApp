@@ -2,6 +2,7 @@
 
 This is a simple and responsive **Weather App** built using **HTML, CSS, and JavaScript**, powered by the **OpenWeather API**. The app lets users search for any city around the world and view the current weather as well as a **5-day forecast**.
 
+Link: https://30kirtana.github.io/WeatherApp/index.html
 ---
 
 ## 🔍 Features
